@@ -1,0 +1,5 @@
+print("Enter the name of your favorite City: ")
+city = input()
+print("Enter the name of your Pet: ")
+pet = input()
+print("Your band name could be " + city + " " + pet)
