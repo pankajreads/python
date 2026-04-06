@@ -7,6 +7,5 @@ class Ball(Turtle):
         self.seth(45)
         self.penup()  
     def bounce(self):
-        if self.ycor() <-280 or self.ycor()>280:
             self.seth(360-(self.heading()))
         

@@ -5,6 +5,6 @@ class Person(Turtle):
         self.shape("square")
         self.color("white")
         self.seth(90)
-        self.shapesize(1,3)
+        self.shapesize(1,4)
         self.penup()
         self.goto(x,y)

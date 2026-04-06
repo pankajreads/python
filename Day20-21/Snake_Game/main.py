@@ -13,6 +13,7 @@ snake=Snake()
 f=Food()
 score=Scoreboard()
 
+
 def collision_food(body,f):
     if f.distance(body[0])<15:
         return True
@@ -28,6 +29,7 @@ def collison_wall(body):
 def w():
     if snake.direction != "DOWN":
         snake.direction = "UP"
+
 
 def s():
     if snake.direction != "UP":
