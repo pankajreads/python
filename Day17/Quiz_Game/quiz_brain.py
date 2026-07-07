@@ -17,6 +17,6 @@ class quiz_brain:
              self.score-=2
         print(self.score)
     def next_ques(self):
-            user_answer=input(f"Q{(self.ques_no)+1} {self.ques_list[self.ques_no].text} True/False ")
+            user_answer=input(f"Q{(self.ques_no)+1} {self.ques_list[self.ques_no].text} True/False ").title()
             self.check_ans(user_answer)
             self.ques_no+=1

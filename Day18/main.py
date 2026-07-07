@@ -13,6 +13,5 @@ for i in range(3,10):
         timmy.forward(100)
         timmy.right(ang/i)
             
-print("")
 screen=Screen()
 screen.exitonclick()

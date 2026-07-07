@@ -9,7 +9,7 @@ def random_color():
     return r,g,b
 for _ in range(0,24):
     tim.pencolor(random_color())
-    tim.circle(50)
+    tim.circle(70)
     tim.left(15)
 screen=Screen()
 screen.exitonclick()
